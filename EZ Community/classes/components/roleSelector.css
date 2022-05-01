@@ -1,0 +1,39 @@
+.roleSelectorContainer{
+	box-sizing: border-box;
+	width: 600px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	padding: 10px;
+    margin-bottom: 15px;
+}
+
+.selectorRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.selectorContainer{
+	box-sizing: border-box;
+	border: 2px solid #36393E;
+    border-radius: 5px;
+	padding: 5px;
+	margin: 3px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    cursor: pointer;
+}
+
+.classIcon{
+	width: 75px;
+	height: 75px;
+}
+
+.underline{
+	text-decoration: underline;
+}

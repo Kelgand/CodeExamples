@@ -1,0 +1,127 @@
+.classContainer{
+	padding: 0px 15px;
+}
+
+.classDescriptions{
+	padding: 0px 10px;
+}
+
+.godstonePanel{
+	margin: 0px auto 10px;
+}
+
+.godstoneGesturePanel{
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #36393e;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid #69768a;
+}
+
+.godstoneGesturePanel:first-of-type{
+	border-top: none;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.godstoneGestureRow{
+	display: flex;
+	flex-direction: column;
+	padding: 5px 10px;
+}
+
+.godstoneGestureName{
+	box-sizing: border-box;
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #064862;
+	display: flex;
+}
+
+.godstoneGestureImage{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}
+
+.godstoneGestureText{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.godstoneIconsRow{
+	display: flex;
+	justify-content: space-around;
+}
+
+.godstoneIconContainer{
+	box-sizing: border-box;
+	border: 2px solid #36393E;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 128px;
+	height: 138px;
+	margin-top: 3px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.godstoneIcon{
+	width: 80px;
+	height: 80px;
+	padding: 5px 0px;
+    margin-left: auto;
+    margin-right: auto;
+	object-fit: contain;
+}
+
+.godstoneInfoPanel{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.godstoneInfoPanelRow{
+	border: 1px solid #5fcdd3;
+	flex: 1;
+}
+
+.godstoneInfoPanelTitle{
+	background-color: #064862;
+	border-bottom: 1px solid #69768a;
+	text-align: center;
+	padding: 3px;
+}
+
+.godstoneInfoPanelContent{
+	padding: 3px 10px;
+}
+
+@media screen and (min-width: 650px) {
+	.godstoneGestureName{
+		margin: auto 0px;
+	}
+
+	.godstonePanel{
+		width: 600px;
+	}
+	
+	.godstoneGestureRow{
+		flex-direction: row;
+		padding: 5px 20px;
+	}
+
+	.godstoneIconsRow{
+		justify-content: start;
+	}
+
+	.godstoneIconContainer{
+		margin: 0px 26px;
+	}
+}
